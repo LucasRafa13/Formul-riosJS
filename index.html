@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Usuários - JS</title>
+    <title>Sistema - Controle de Clientes</title>
     <meta
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
       name="viewport"
@@ -31,9 +31,9 @@
         <!-- Logo -->
         <a href="index2.html" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"></span>
+          <span class="logo-mini">HCODE</span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg">Lucas Lima</span>
+          <span class="logo-lg">HCODE</span>
         </a>
 
         <!-- Header Navbar -->
@@ -242,6 +242,8 @@
                             type="radio"
                             id="exampleInputGenderM"
                             name="gender"
+                            value="M"
+                            checked
                           />
                           Masculino</label
                         >
@@ -252,6 +254,7 @@
                             type="radio"
                             id="exampleInputGenderF"
                             name="gender"
+                            value="F"
                           />
                           Feminino</label
                         >
@@ -273,7 +276,7 @@
                         id="exampleInputCountry"
                         name="country"
                       >
-                        <option value="" selected="selected">
+                        <option selected="selected" value="">
                           Selecione um país
                         </option>
                         <option value="United States">United States</option>
@@ -669,15 +672,15 @@
       <footer class="main-footer">
         <!-- To the right -->
         <div class="pull-right hidden-xs">
-          <a target="_blank" href="https://github.com/LucasRafa13"></a>
+          <a target="_blank" href="https://github.com/LucasRafa13">Github</a>
         </div>
         <!-- Default to the left -->
-        Projeto desenvolvido no curso online de JavaScript da Hcode
-        Treinamentos.
+        Projeto desenvolvido por Lucas Rafael
       </footer>
     </div>
 
-    <script src="models/User.js"></script>
+    <script src="models/user.js"></script>
+    <script src="controllers/userController.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
